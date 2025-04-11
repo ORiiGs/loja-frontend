@@ -1,6 +1,6 @@
 class BancoDeDados {
     static getProdutos = async () => {
-        const response = await fetch('http://localhost:9000/produtos');
+        const response = await fetch('http://localhost:27017/produtos');
         const produtos = await response.json();
 
         if (response.status !== 200) {

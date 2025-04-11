@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Docker
+
+## Construção da imagem
+
+|powershell|
+docker build -t loja-frontend .
+docker run -d --name loja-banco-de-dados -p 3001:80 loja-banco-de-dados
+
+## Link dockerhub
+
+https://hub.docker.com/repository/docker/riigs/loja-frontend/general
+
 ## Available Scripts
 
 In the project directory, you can run:
